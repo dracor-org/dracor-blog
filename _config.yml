@@ -1,0 +1,46 @@
+title: DraCor Blog
+email: info@dracor.org
+description: >-
+  News, updates, and writing from the DraCor project, with a focus on DraCorOS.
+  A contribution to the OSCARS project.
+
+baseurl: ""
+url: https://blog.dracor.org
+
+github_username: dracor-org
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: "/page:num/"
+
+permalink: /posts/:slug/
+
+minima:
+  date_format: "%b %-d, %Y"
+  show_excerpts: true
+  social_links:
+    - title: DraCor on Bluesky
+      icon: bluesky
+      url: "https://bsky.app/profile/dracor.org"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: dracor-org
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - STARTING_PROMPT.md
+  - vendor/
+  - node_modules/

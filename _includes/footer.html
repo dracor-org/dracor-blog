@@ -1,0 +1,57 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ '/' | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
+            <svg class="svg-icon orange">
+              <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+                11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+                13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+                16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+              />
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+        {%- if site.email %}
+          <ul class="contact-list">
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          </ul>
+        {%- endif %}
+      </div>
+      <div class="footer-col">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+
+    <div id="oscars-funding-note" class="funding-note">
+      <img
+        class="oscars-logo"
+        alt="OSCARS"
+        title="Fostering the uptake of Open Science in Europe"
+        src="{{ '/assets/images/oscars-eu.png' | relative_url }}"
+      />
+      <p>
+        This blog is produced in the context of
+        <a href="https://oscars-project.eu/">OSCARS</a>, a four-year EU-funded
+        project that strives to foster the uptake of Open Science in Europe by
+        consolidating the achievements of world-class European research
+        infrastructures in the ESFRI roadmap and beyond into lasting
+        interdisciplinary FAIR data services and working practices.
+      </p>
+    </div>
+
+    <div class="social-links">
+      {%- include social.html -%}
+    </div>
+
+    <div class="imprint">
+      <a href="https://dracor.org/doc/imprint-and-gdpr">Imprint</a>
+    </div>
+
+  </div>
+
+</footer>

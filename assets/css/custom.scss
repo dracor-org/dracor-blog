@@ -1,0 +1,330 @@
+---
+---
+
+$main: #1f2448;             // Dark blue
+$background: #ebf0f7;       // Light blue
+$primary-accent: #0088ff;   // Bright blue
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: $background;
+  color: $main;
+}
+
+a {
+  color: $primary-accent;
+}
+
+.site-header {
+  background-color: $main;
+  color: $background;
+
+  // Logo + title sit in one flex anchor, logo on the left.
+  // Mirrors the DraCor frontend style guide (.app-brand pattern).
+  .site-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    float: left;
+    line-height: 54px;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .site-logo {
+    display: block;
+    height: 36px;
+    width: 36px;
+  }
+
+  .site-title {
+    font-size: 1.4em;
+    font-weight: 500;
+    color: white;
+  }
+
+  .page-link {
+    color: white;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .site-nav {
+    background-color: $main;
+    border: none;
+    float: right;
+    line-height: 54px;
+
+    .nav-trigger {
+      display: none;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    .trigger {
+      display: flex;
+      align-items: center;
+      gap: 1.5em;
+    }
+
+    .nav-item {
+      position: relative;
+    }
+
+    @media screen and (max-width: 600px) {
+      position: absolute;
+      top: 80px;
+      right: 15px;
+      background-color: $main;
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 5px;
+      text-align: right;
+
+      label[for="nav-trigger"] {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 36px;
+        z-index: 2;
+        cursor: pointer;
+      }
+
+      .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center;
+
+        > svg {
+          fill: white;
+        }
+      }
+
+      input ~ .trigger {
+        clear: both;
+        display: none;
+      }
+
+      input:checked ~ .trigger {
+        display: block;
+        padding-bottom: 5px;
+      }
+
+      .trigger {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .nav-item {
+        width: 100%;
+      }
+
+      .page-link {
+        display: block;
+        padding: 10px 15px;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        margin-left: 20px;
+
+        &:not(:last-child) {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .menu-icon > svg {
+      fill: white;
+    }
+  }
+}
+
+// Blog-specific styles
+
+.post-list {
+  list-style: none;
+  margin-left: 0;
+
+  > li {
+    margin-bottom: 2.5em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid rgba($main, 0.1);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  h2 {
+    margin-bottom: 0.25em;
+  }
+
+  .post-link {
+    color: $main;
+    font-weight: 500;
+
+    &:hover {
+      color: $primary-accent;
+      text-decoration: none;
+    }
+  }
+}
+
+.post-meta {
+  color: rgba($main, 0.65);
+  font-size: 0.9em;
+  margin-bottom: 0.75em;
+
+  .author-link {
+    color: rgba($main, 0.55);
+    margin-left: 0.2em;
+    text-decoration: none;
+
+    &:hover {
+      color: $primary-accent;
+    }
+  }
+
+  .author-orcid:hover { color: #a6ce39; }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+
+  .post-tag {
+    display: inline-block;
+    background-color: rgba($primary-accent, 0.12);
+    color: $primary-accent;
+    padding: 0.1em 0.6em;
+    border-radius: 3px;
+    font-size: 0.85em;
+    margin-right: 0.25em;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $primary-accent;
+      color: white;
+    }
+  }
+}
+
+.post-excerpt {
+  color: rgba($main, 0.85);
+}
+
+.post-reblog-note {
+  font-style: italic;
+  color: rgba($main, 0.7);
+  background-color: rgba($primary-accent, 0.06);
+  border-left: 3px solid $primary-accent;
+  padding: 0.75em 1em;
+  margin: 1.5em 0;
+}
+
+.archive-year {
+  margin-top: 1.5em;
+  border-bottom: 2px solid rgba($main, 0.15);
+  padding-bottom: 0.2em;
+}
+
+.archive-list {
+  li {
+    display: flex;
+    gap: 1em;
+    align-items: baseline;
+    margin-bottom: 0.5em;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  .post-meta {
+    flex: 0 0 8em;
+    margin-bottom: 0;
+  }
+}
+
+.pager {
+  margin-top: 2em;
+  text-align: center;
+
+  .pagination {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 1.5em;
+    align-items: center;
+  }
+
+  .pager-edge {
+    color: rgba($main, 0.3);
+  }
+
+  .current-page {
+    font-weight: 500;
+  }
+}
+
+.funding-note {
+  margin-top: 2em;
+  padding-top: 1.5em;
+  border-top: 1px solid rgba($main, 0.15);
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5em;
+  flex-wrap: wrap;
+
+  .oscars-logo {
+    max-width: 180px;
+    height: auto;
+    flex: 0 0 auto;
+  }
+
+  p {
+    flex: 1 1 300px;
+    font-size: 0.9em;
+    color: rgba($main, 0.8);
+    margin: 0;
+  }
+}
+
+.imprint {
+  margin-top: 1em;
+  font-size: 0.9em;
+}
+
+.video-embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 1.5em 0;
+  background: #000;
+  border-radius: 4px;
+  overflow: hidden;
+
+  iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}

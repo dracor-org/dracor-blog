@@ -1,0 +1,56 @@
+# Author keys are GitHub usernames (or org names). The post-meta include
+# builds each author's GitHub link from the key itself, so no separate
+# `github:` field is needed.
+
+dracor-org:
+  name: DraCor Team
+  url: https://dracor.org
+  bio: The Drama Corpora Project.
+
+lehkost:
+  name: Frank Fischer
+  url: https://lehkost.github.io/
+  orcid: 0000-0003-2419-6629
+  bio: DraCor Editor-in-chief. Doing Digital Humanities at Freie Universität Berlin.
+
+cmil:
+  name: Carsten Milling
+  url: https://github.com/cmil
+  orcid: 0000-0003-0553-7512
+  bio: DraCor Technical Lead.
+
+ingoboerner:
+  name: Ingo Börner
+  url: https://github.com/ingoboerner
+  orcid: 0000-0001-8294-2541
+  bio: DraCor Technical Co-Lead. Tangled up in the Semantic Web.
+
+juliajbeine:
+  name: Julia Jennifer Beine
+  url: https://rub.academia.edu/JuliaJenniferBeine
+  orcid: 0000-0001-8979-8706
+  bio: DraCor Co-Editor.
+
+peertrilcke:
+  name: Peer Trilcke
+  url: https://www.uni-potsdam.de/de/lit-19-jhd/peertrilcke.html
+  orcid: 0000-0002-1421-4320
+  bio: DraCor Co-Editor. Professor of Modern German Literature and Media at University of Potsdam.
+
+markschwindt:
+  name: Mark Schwindt
+  url: https://www.markschwindt.com/
+  orcid: 0000-0002-4337-2467
+  bio: DraCor Art Director.
+
+arojascastro:
+  name: Antonio Rojas Castro
+  url: https://arojascastro.github.io/
+  orcid: 0000-0002-8916-4997
+  bio: Digital Humanities Research Associate.
+
+hsluytergaethje:
+  name: Henny Sluyter-Gäthje
+  url: https://github.com/hsluytergaethje
+  orcid: 0000-0003-2969-3237
+  bio: Developer of pydracor.
