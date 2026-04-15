@@ -4,8 +4,13 @@ description: >-
   News, updates, and writing from the DraCor project, with a focus on DraCorOS.
   A contribution to the OSCARS project.
 
-baseurl: ""
-url: https://blog.dracor.org
+# Staging values — site is currently deployed to the github.io fallback.
+# When the custom domain `blog.dracor.org` is wired up (CNAME file + DNS),
+# switch these two lines back to:
+#   baseurl: ""
+#   url: https://blog.dracor.org
+baseurl: /dracor-blog
+url: https://dracor-org.github.io
 
 github_username: dracor-org
 
