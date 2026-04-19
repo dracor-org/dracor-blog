@@ -4,10 +4,10 @@ description: >-
   News, updates, and writing from the DraCor project, with a focus on DraCorOS.
   A contribution to the OSCARS project.
 
-# By default the site is deployed to GitHub pages. To override this use
-# _config.staging.yml or _config.production.yml.
-url: https://dracor-org.github.io
-baseurl: /dracor-blog
+# By default the site is blog.staging.dracor.org. For the production deployment
+# the url needs to be overridden (see deployment.yml).
+url: https://blog.staging.dracor.org
+baseurl: ""
 
 github_username: dracor-org
 
