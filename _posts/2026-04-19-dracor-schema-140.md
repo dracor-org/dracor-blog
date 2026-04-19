@@ -3,7 +3,6 @@ title: "DraCor Schema 1.4.0 released"
 date: 2025-09-02 16:00:00 +0200
 author: cmil
 tags: [Schema]
-published: false
 excerpt: >
   Version 1.4.0 simplifies the markup for Wikidata IDs and other metadata and
   consolidates the corpus.xml format.
