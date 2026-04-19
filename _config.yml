@@ -4,13 +4,10 @@ description: >-
   News, updates, and writing from the DraCor project, with a focus on DraCorOS.
   A contribution to the OSCARS project.
 
-# Staging values — site is currently deployed to the github.io fallback.
-# When the custom domain `blog.dracor.org` is wired up (CNAME file + DNS),
-# switch these two lines back to:
-#   baseurl: ""
-#   url: https://blog.dracor.org
-baseurl: /dracor-blog
+# By default the site is deployed to GitHub pages. To override this use
+# _config.staging.yml or _config.production.yml.
 url: https://dracor-org.github.io
+baseurl: /dracor-blog
 
 github_username: dracor-org
 

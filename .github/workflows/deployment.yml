@@ -1,0 +1,55 @@
+name: Deployment
+
+on:
+  workflow_call:
+    inputs:
+      host:
+        required: true
+        type: string
+      deploy-path:
+        required: true
+        type: string
+    secrets:
+      deploy-key:
+        required: true
+      deploy-user:
+        required: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+        with:
+          fetch-tags: true
+          fetch-depth: 0
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Create config
+        run: |
+          echo "url: https://${{ inputs.host }}" > _config.ext.yml
+          echo 'baseurl: ""' >> _config.ext.yml
+          cat _config.ext.yml
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --config _config.yml,_config.ext.yml
+        env:
+          JEKYLL_ENV: production
+
+      - uses: webfactory/ssh-agent@dc588b651fe13675774614f8e6a936a468676387 # v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.deploy-key }}
+
+      - name: Deploy to ${{ inputs.host }}
+        run: |
+          rsync -rlvz --delete \
+            --exclude=robots.txt \
+            --exclude=google*.html \
+            -e 'ssh -o StrictHostKeyChecking=no' \
+            _site/ \
+            ${{ secrets.deploy-user }}@${{ inputs.host }}:${{ inputs.deploy-path }}/
