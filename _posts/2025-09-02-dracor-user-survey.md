@@ -9,7 +9,7 @@ excerpt: >
   researchers use DraCor and what they most need next.
 ---
 
-Some months ago, we conducted a small user survey to better understand how DraCor is being used, which aspects of the platform users find most valuable, and where they see the most urgent needs for further development. With 18 completed responses, the survey is not large enough to support broad generalisations, but it does offer a useful snapshot of an engaged and experienced user community.
+As part of DraCorOS, we conducted a **small user survey** to better **understand how DraCor is being used, which aspects of the platform users find most valuable, and where they see the most urgent needs for further development**. With 18 completed responses, the survey is not large enough to support broad generalisations, but it does offer a useful snapshot of an engaged and experienced user community.
 
 Several findings stand out. First, **overall satisfaction with DraCor was high**. Most respondents described themselves as somewhat or very satisfied, and recommendation scores were particularly strong: 16 out of 18 respondents gave DraCor the highest possible score when asked whether they would recommend it to a colleague. This suggests that DraCor is already perceived as a reliable and valuable research infrastructure.
 
