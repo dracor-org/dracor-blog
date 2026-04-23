@@ -3,7 +3,7 @@ title: "DraCor User Survey: What We Learned"
 date: 2025-09-02 10:00:00 +0200
 author: arojascastro
 tags: [DraCorOS]
-published: false
+published: true
 excerpt: >
   As part of DraCorOS, we ran a user survey to better understand how
   researchers use DraCor and what they most need next.
