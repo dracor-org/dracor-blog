@@ -10,3 +10,4 @@ Browse posts by tag:
 - [Conference Report](/tags/conference-report/) — reports from events we attended or organised
 - [Corpora](/tags/corpora/) — new corpus releases and corpus-related announcements
 - [Schema](/tags/schema/) — announcements related to the DraCor Schema
+- [API](/tag/api/) - news related to the DraCor API
