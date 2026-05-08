@@ -12,3 +12,9 @@ vendor/
 .DS_Store
 
 STARTING_PROMPT.md
+
+# Claude Code MCP config — paths are absolute and machine-specific
+.mcp.json
+
+# Local working notes / hackathon artifacts — not for publication
+tmp/
