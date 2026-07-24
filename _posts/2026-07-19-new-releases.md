@@ -4,7 +4,7 @@ date: 2026-07-19 12:00:00 +0200
 author: cmil
 tags: [API, Schema]
 excerpt: >
-  The DraCor API 1.4.0, Frontend 2.7.0 and Schema 1.5.0 have been released to
+  The DraCor API 1.4.1, Frontend 2.7.1 and Schema 1.5.1 have been released to
   introduce new features and improve existing ones.
 ---
 
