@@ -16,7 +16,7 @@ Against this background, the University of Rostock will host the hackathon **Wom
 
 DraCor (short for Drama Corpora) is an open and multilingual research infrastructure for the computational study of drama from antiquity to the twentieth century. Its corpora are encoded according to the guidelines of the Text Encoding Initiative (TEI) and made available through a web interface and an application programming interface (API). DraCor currently comprises [33 drama corpora](https://dracor.org/doc/corpora) containing more than 4,000 annotated full-text plays in 24 languages. As a community-driven project committed to open-science principles, it supports a broad international research landscape in computational drama analysis and theatre history.
 
-## About the hackathon
+## About the hackathon 
 
 The hackathon **Women Playwrights in Digital Corpora** will take place in Rostock from 7 to 9 September 2026. Hosted by the Professorship for Digital Humanities at the University of Rostock, the three-day event will bring together researchers from computational literary studies, cultural analytics, digital scholarly editing, theatre studies, and related fields.
 
@@ -26,34 +26,25 @@ The programme will combine introductory training sessions on encoding dramatic t
 
 ## Programme
 
-### Monday, 7 September 2026
-
-| Time | Programme |
-|---|---|
+| Time | Programme item |
+|:---|:---|
+| **Monday, 7 September 2026** |
 | 13:00–13:15 | **Welcome and Introduction** |
-| 13:15–14:45 | **Beginners’ Training Session I: From Dramatic Text to DraCor TEI**<br>(*Tutors: Julia Jennifer Beine and Aşina Aleyna Yıldız*) |
+| 13:15–14:45 | **Beginners’ Training Session I: From Dramatic Text to DraCor TEI**<br>Tutors: Julia Jennifer Beine and Aşina Aleyna Yıldız (both Würzburg) |
 | 14:45–15:15 | Coffee Break |
-| 15:15–16:45 | **Beginners’ Training Session II: Analyses with DraCor Data**<br>(*Tutor: Frank Fischer*) |
+| 15:15–16:45 | **Beginners’ Training Session II: Analyses with DraCor Data**<br>Tutor: Frank Fischer (Berlin) |
 | 16:45–17:15 | Coffee Break |
 | 17:15–18:45 | **Opening Keynote** |
 | 19:30 | Informal Dinner |
-
-### Tuesday, 8 September 2026
-
-| Time | Programme |
-|---|---|
+| **Tuesday, 8 September 2026** |
 | 09:00–10:30 | **State of the Art: Women Playwrights in Digital Corpora** |
 | 10:30–11:00 | Coffee Break |
 | 11:00–12:30 | **Collaborative Working Session I** |
 | 12:30–13:30 | Lunch Break |
 | 13:30–15:00 | **Collaborative Working Session II** |
 | 15:00–15:30 | Coffee Break |
-| 15:30–17:00 | **Battle of the Plays World Championship 2026**<br>(*Moderators: Frank Fischer and Antonio Rojas Castro*) |
-
-### Wednesday, 9 September 2026
-
-| Time | Programme |
-|---|---|
+| 15:30–17:00 | **Battle of the Plays World Championship 2026**<br>Moderators: Frank Fischer and Antonio Rojas Castro (both Berlin) |
+| **Wednesday, 9 September 2026** |
 | 09:00–10:30 | **Collaborative Working Session III** |
 | 10:30–11:00 | Coffee Break |
 | 11:00–12:00 | **Round Table Discussion** |
