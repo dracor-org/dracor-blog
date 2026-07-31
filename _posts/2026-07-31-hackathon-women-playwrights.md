@@ -31,9 +31,9 @@ The programme will combine introductory training sessions on encoding dramatic t
 | Time | Programme |
 |---|---|
 | 13:00–13:15 | **Welcome and Introduction** |
-| 13:15–14:45 | **Beginners’ Training Session I: From Dramatic Text to DraCor TEI**<br><br>(*Tutors: Julia Jennifer Beine and Aşina Aleyna Yıldız*) |
+| 13:15–14:45 | **Beginners’ Training Session I: From Dramatic Text to DraCor TEI**<br>(*Tutors: Julia Jennifer Beine and Aşina Aleyna Yıldız*) |
 | 14:45–15:15 | Coffee Break |
-| 15:15–16:45 | **Beginners’ Training Session II: Analyses with DraCor Data**<br><br>(*Tutor: Frank Fischer*) |
+| 15:15–16:45 | **Beginners’ Training Session II: Analyses with DraCor Data**<br>(*Tutor: Frank Fischer*) |
 | 16:45–17:15 | Coffee Break |
 | 17:15–18:45 | **Opening Keynote** |
 | 19:30 | Informal Dinner |
@@ -48,7 +48,7 @@ The programme will combine introductory training sessions on encoding dramatic t
 | 12:30–13:30 | Lunch Break |
 | 13:30–15:00 | **Collaborative Working Session II** |
 | 15:00–15:30 | Coffee Break |
-| 15:30–17:00 | **Battle of the Plays World Championship 2026**<br><br>(*Moderators: Frank Fischer and Antonio Rojas Castro*) |
+| 15:30–17:00 | **Battle of the Plays World Championship 2026**<br>(*Moderators: Frank Fischer and Antonio Rojas Castro*) |
 
 ## Wednesday, 9 September 2026
 
@@ -83,14 +83,14 @@ The event is open both to participants with previous experience of DraCor or TEI
 
 ### Venue
 
-Seminar Rooms 105 and 116
-Philologicum
-Universitätsplatz 3
-18055 Rostock
+Seminar Rooms 105 and 116<br>
+Philologicum<br>
+Universitätsplatz 3<br>
+18055 Rostock<br>
 Germany
 
 **Local organisers:** Erik Renz and Ulrike Henny-Krahmer 
 
 **Contact:** [phf.dh@uni-rostock.de](mailto:phf.dh@uni-rostock.de)
 
-**Acknowledgements:** The event is organised with the support of the team of the Professorship for Digital Humanities at the University of Rostock. It forms part of the activities of the Rostock Working Group for Digital Humanities (RosDH) and is funded by the Department “Wissen – Kultur – Transformation” of the Interdisciplinary Faculty and by the Faculty of Humanities at the University of Rostock.
+**Acknowledgements:** The event is organised with the support of the team of the Professorship for Digital Humanities at the University of Rostock. It forms part of the activities of the [Rostock Working Group for Digital Humanities](https://www.germanistik.uni-rostock.de/en/forschung/digital-humanities/rosdh/) (RosDH) and is funded by the Department “[Wissen – Kultur – Transformation](https://www.inf.uni-rostock.de/wissen-kultur-transformation/)” of the Interdisciplinary Faculty and by the Faculty of Humanities at the University of Rostock.
