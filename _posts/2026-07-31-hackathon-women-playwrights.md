@@ -24,9 +24,9 @@ The hackathon **Women Playwrights in Digital Corpora** will take place in Rostoc
 
 The programme will combine introductory training sessions on encoding dramatic texts in TEI and working with DraCor data with scholarly presentations, collaborative working sessions, and discussion formats. During the working sessions, participants may either pursue projects of their own or contribute to prepared thematic work packages.
 
-# Programme
+## Programme
 
-## Monday, 7 September 2026
+### Monday, 7 September 2026
 
 | Time | Programme |
 |---|---|
@@ -38,7 +38,7 @@ The programme will combine introductory training sessions on encoding dramatic t
 | 17:15–18:45 | **Opening Keynote** |
 | 19:30 | Informal Dinner |
 
-## Tuesday, 8 September 2026
+### Tuesday, 8 September 2026
 
 | Time | Programme |
 |---|---|
@@ -50,7 +50,7 @@ The programme will combine introductory training sessions on encoding dramatic t
 | 15:00–15:30 | Coffee Break |
 | 15:30–17:00 | **Battle of the Plays World Championship 2026**<br>(*Moderators: Frank Fischer and Antonio Rojas Castro*) |
 
-## Wednesday, 9 September 2026
+### Wednesday, 9 September 2026
 
 | Time | Programme |
 |---|---|
