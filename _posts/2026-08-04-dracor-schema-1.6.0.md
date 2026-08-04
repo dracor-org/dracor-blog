@@ -1,6 +1,6 @@
 ---
 title: "DraCor Schema 1.6.0 released"
-date: 2026-08-04 12:00:00 +0200
+date: 2026-08-04 10:00:00 +0200
 author: cmil
 tags: [Schema]
 excerpt: >
