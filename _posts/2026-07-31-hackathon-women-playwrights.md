@@ -20,7 +20,7 @@ DraCor (short for Drama Corpora) is an open and multilingual research infrastruc
 
 The hackathon **Women Playwrights in Digital Corpora** will take place in Rostock from 7 to 9 September 2026. Hosted by the Professorship for Digital Humanities at the University of Rostock, the three-day event will bring together researchers from computational literary studies, cultural analytics, digital scholarly editing, theatre studies, and related fields.
 
-![Promotional poster for “Women Playwrights in Digital Corpora”]({{ '/assets/images/2025-09-02-hackathon-women-playwrights/poster-dracor-hackathon-2026.svg' | relative_url }})
+![Promotional poster for “Women Playwrights in Digital Corpora”]({{ '/assets/images/2026-07-31-hackathon-women-playwrights/poster-dracor-hackathon-2026.svg' | relative_url }})
 
 The programme will combine introductory training sessions on encoding dramatic texts in TEI and working with DraCor data with scholarly presentations, collaborative working sessions, and discussion formats. During the working sessions, participants may either pursue projects of their own or contribute to prepared thematic work packages.
 
