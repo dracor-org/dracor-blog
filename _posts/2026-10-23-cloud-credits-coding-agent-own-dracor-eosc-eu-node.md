@@ -100,7 +100,7 @@ To be fair, here is what you should know before you start.
 ## Give it a try
 The first step costs you nothing: log in to the [EOSC EU Node](https://open-science-cloud.ec.europa.eu/) with your institutional/university account and see which access group you land in. If you have credits, clone the [repository](https://github.com/dracor-org/dracor-eosc-eu-node-deploy), start your agent, and deploy your own DraCor; or follow the [guide](https://github.com/dracor-org/dracor-eosc-eu-node-deploy/blob/main/docs/guide-eosc-eu-node.md) on your own.
 
-And then tell us how it went, in the [EOSC User Forum](https://user-forum.eosc.eu/). That is also my answer to the question from Florence: here are some of the users, and this is what they need. And it keeps the promise from my talk: the use case, the manifests and the guide are public, and this post tells the failures.
+And then tell us how it went, in the [thread about it in the EOSC User Forum](https://user-forum.eosc.eu/t/dracoros-use-case-your-own-dracor-on-the-eosc-eu-node-cloud-container-platform/168). That is also my answer to the question from Florence: here are some of the users, and this is what they need. And it keeps the promise from my talk: the use case, the manifests and the guide are public, and this post tells the failures.
 
 The [EcoCor hackathon post]({% post_url 2026-05-06-ecocor-hackathon-humans-adaptation-story %}) ended with the promise that the deployment to EOSC would get its own post. Here it is!
 
