@@ -1,15 +1,15 @@
 name: Deploy to staging
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
 
 jobs:
   staging:
-    uses: dracor-org/dracor-blog/.github/workflows/deployment.yml@main
+    uses: ./.github/workflows/deployment.yml
+    # environment secrets only reach the reusable workflow this way
+    secrets: inherit
     with:
+      environment: staging
       host: blog.staging.dracor.org
-      deploy-path: /var/www/blog
-    secrets:
-      deploy-key: ${{ secrets.DRACOR_ORG_DEPLOY_KEY }}
-      deploy-user: ${{ secrets.DRACOR_ORG_DEPLOY_USER }}
