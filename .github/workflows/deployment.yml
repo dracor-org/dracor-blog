@@ -52,6 +52,8 @@ jobs:
         with:
           name: site
           path: _site/
+          # otherwise e.g. a .htaccess would be missing and rsync deletes it
+          include-hidden-files: true
           if-no-files-found: error
 
   deploy:
